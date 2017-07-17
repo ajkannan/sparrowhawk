@@ -37,4 +37,4 @@ sparrowhawk/serialization_spec.pb.h:
 
 sparrowhawk/sparrowhawk_configuration.pb.h:
 	$(MAKE) -C $(srcdir)/../proto/ sparrowhawk_configuration.pb.h
- 
+
