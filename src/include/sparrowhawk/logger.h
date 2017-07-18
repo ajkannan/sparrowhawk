@@ -28,7 +28,7 @@ namespace sparrowhawk {
 
 
 #define LoggerFormat(format) \
-  string(string("[%s:%s:%d] ") + format).c_str()
+  string(string("[%s:%s:%d] ") + format + string("\n")).c_str()
 
 #define LoggerMessage(type, format, ...)         \
   fprintf(stderr, \
